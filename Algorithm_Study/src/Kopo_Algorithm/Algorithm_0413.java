@@ -10,7 +10,7 @@ package Kopo_Algorithm;
  * 2  
  * */
 import java.util.*;
-public class Alogrithm_0413{ 
+public class Algorithm_0413{ 
     public int solution(String str, char t){
         int answer = 0;
         str = str.toUpperCase();
@@ -25,7 +25,7 @@ public class Alogrithm_0413{
     }
 
     public static void main(String[] args){
-        Alogrithm_0413 T = new Alogrithm_0413();
+        Algorithm_0413 T = new Algorithm_0413();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);
